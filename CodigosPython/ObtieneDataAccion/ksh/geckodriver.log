@@ -1,0 +1,38 @@
+1526013488075	geckodriver	INFO	geckodriver 0.20.1
+1526013488079	geckodriver	INFO	Listening on 127.0.0.1:37607
+1526013489079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.U2jSXp4Kyqan"
+1526013489962	Marionette	INFO	Enabled via --marionette
+1526013492284	Marionette	INFO	Listening on port 41085
+1526013492346	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.bolsadesantiago.com/Style%20Library/Scripts/SignalR/jquery.signalR-2.1.0.min.js, line 8: Error: SignalR: Connection must be started before data can be sent. Call .start() before .send()
+JavaScript warning: http://www.bolsadesantiago.com/_layouts/sp.ribbon.js?rev=F%2BUEJ66rbXzSvpf7nN69wQ%3D%3D, line 2: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526347874728	geckodriver	INFO	geckodriver 0.20.1
+1526347874749	geckodriver	INFO	Listening on 127.0.0.1:38015
+1526347875736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.39IhcACjIO1j"
+1526347876644	Marionette	INFO	Enabled via --marionette
+1526347879188	Marionette	INFO	Listening on port 46659
+1526347879270	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526347879542	geckodriver	INFO	geckodriver 0.20.1
+1526347879551	geckodriver	INFO	Listening on 127.0.0.1:40897
+1526347880548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tFJRhhafya26"
+1526347881568	Marionette	INFO	Enabled via --marionette
+1526347884068	Marionette	INFO	Listening on port 43581
+1526347884106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.bolsadesantiago.com/Style%20Library/Scripts/SignalR/jquery.signalR-2.1.0.min.js, line 8: Error: SignalR: Connection must be started before data can be sent. Call .start() before .send()
+JavaScript warning: http://www.bolsadesantiago.com/_layouts/sp.ribbon.js?rev=F%2BUEJ66rbXzSvpf7nN69wQ%3D%3D, line 2: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530067521030	geckodriver	INFO	geckodriver 0.21.0
+1530067521054	geckodriver	INFO	Listening on 127.0.0.1:37615
+1530067522039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QKRpDgW24WoT"
+*** You are running in headless mode.
+1530067525195	Marionette	INFO	Listening on port 38731
+1530067525257	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.bolsadesantiago.com/Style%20Library/Scripts/SignalR/jquery.signalR-2.1.0.min.js, line 8: Error: SignalR: Connection must be started before data can be sent. Call .start() before .send()
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x48000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
