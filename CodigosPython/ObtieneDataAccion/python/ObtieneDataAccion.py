@@ -20,9 +20,10 @@ driver.get("http://www.bolsadesantiago.com/mercado/Paginas/Acciones.aspx")
 fechaHoy = time.strftime("%d%m%Y")
 horaMinuto = time.strftime('%H%M')
 
-directorioCrea="/home/ismael/CodigosPython/ObtieneDataAccion/dat/"+fechaHoy
+directorioCrea="/home/ismael/Python/CodigosPython/ObtieneDataAccion/dat/"+fechaHoy
 
 nombreArchivo = directorioCrea+"/"+"infoAccion_" + fechaHoy + "_" + horaMinuto + ".info"
+print(os.path.exists(directorioCrea))
 if os.path.exists(directorioCrea) == False:
 	os.mkdir(directorioCrea)
 else:

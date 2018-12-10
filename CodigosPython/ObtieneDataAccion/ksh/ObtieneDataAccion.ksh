@@ -11,7 +11,7 @@ if [ $? -eq 0 ]; then
 
 
 
-	ejecutoPython=$(/home/ismael/environments/my_env/bin/python $HOME/CodigosPython/ObtieneDataAccion/python/$process_id.py) 
+	ejecutoPython=$(/home/ismael/environments/my_env/bin/python $HOME/Python/CodigosPython/ObtieneDataAccion/python/$process_id.py) 
 
 fi
 #$(deactivate)
