@@ -2,18 +2,19 @@
 fechaProceso=$(date '+%d%m%Y')
 #fechaProceso="17052018"
 #fechaHoraConcatena=$(date '+%d%m%Y_%H')
-rutaArchivosAcciones=/home/ismael/CodigosPython/ObtieneDataAccion/dat/$fechaProceso
+rutaRaizProceso=/home/ismael/Python/CodigosPython
+rutaArchivosAcciones=$rutaRaizProceso/ObtieneDataAccion/dat/$fechaProceso
 archivosConcatena=$rutaArchivosAcciones/'infoAccion_'$fechaProceso
 archivoBusca='infoAccion_'$fechaProceso
-rutaArchivoGenera=/home/ismael/CodigosPython/ConcatenaArchivoAccion/dat/$fechaProceso
+rutaArchivoGenera=$rutaRaizProceso/ConcatenaArchivoAccion/dat/$fechaProceso
 
-archivoConcatenado=/home/ismael/CodigosPython/ConcatenaArchivoAccion/dat/output/concatenado_$fechaProceso
-output=/home/ismael/CodigosPython/etl/dat/input/$fechaProceso
+archivoConcatenado=$rutaRaizProceso/ConcatenaArchivoAccion/dat/output/concatenado_$fechaProceso
+output=$rutaRaizProceso/etl/dat/input/$fechaProceso
 archivoFinal=${output}/'formato_concatena_'$fechaProceso
 
 archivoGenera=$rutaArchivoGenera/'archivoPorHora_'$fechaProceso.info
 
-echo $archivosConcatena
+echo "Archivo a concatenar " $archivosConcatena
 
 if [ ! -d $rutaArchivoGenera ]; then
 	mkdir $rutaArchivoGenera
@@ -21,7 +22,8 @@ fi
 
 cd $rutaArchivosAcciones
 
-for archivo in $(wc -l * | grep -v 250 | grep info | cut -c7-36)
+echo "archivo a generar" $archivoGenera
+for archivo in $(wc -l * | grep -v 250 | grep info | cut -c4-36)
 do 
 	cat $archivo >> $archivoGenera
 done
